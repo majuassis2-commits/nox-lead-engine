@@ -1,27 +1,15 @@
-
 {
   "cities": [
     "São Paulo SP",
     "Campinas SP",
     "Ribeirão Preto SP",
-    "Sorocaba SP",
-    "Santos SP",
-    "São José dos Campos SP",
-    "São José do Rio Preto SP",
-    "Bauru SP",
-    "Piracicaba SP",
-    "Franca SP"
+    "São José do Rio Preto SP"
   ],
   "niches": [
     "hamburgueria telefone",
     "pizzaria telefone",
     "barbearia telefone",
-    "estética automotiva telefone",
-    "cafeteria telefone",
-    "adega telefone",
-    "academia telefone",
-    "açaiteria telefone",
-    "pet shop telefone"
+    "academia telefone"
   ],
   "maxResultsPerSearch": 2
 }

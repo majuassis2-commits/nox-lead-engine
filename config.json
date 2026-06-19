@@ -1,0 +1,13 @@
+{
+  "cities": [
+    "Ribeirão Preto SP",
+    "Campinas SP",
+    "São José do Rio Preto SP"
+  ],
+  "niches": [
+    "hamburgueria",
+    "pizzaria",
+    "barbearia"
+  ],
+  "maxResultsPerSearch": 3
+}

@@ -1,0 +1,46 @@
+NØX Robô Regional 3x3
+
+Este robô começa pequeno e regional:
+- Ribeirão Preto SP
+- Campinas SP
+- São José do Rio Preto SP
+
+Nichos:
+- hamburgueria
+- pizzaria
+- barbearia
+
+Total:
+3 cidades x 3 nichos = 9 buscas por rodada.
+Cada busca pega até 3 resultados.
+Meta inicial: até 27 leads por rodada.
+
+Como usar:
+
+1. Crie/garanta a tabela no Supabase usando o arquivo SUPABASE_SQL.sql.
+
+2. Copie .env.example para .env
+
+3. Preencha:
+SUPABASE_URL
+SUPABASE_SERVICE_ROLE_KEY
+
+4. Instale:
+npm install
+
+5. Rode:
+npm run scan
+
+Ou rode como servidor:
+npm start
+
+E acione:
+POST /scan
+
+Importante:
+Este robô usa busca pública do Google. O Google pode limitar excesso de buscas.
+Por isso começamos leve: 3x3 regional.
+Depois que validar, subimos com cuidado.
+
+Próxima fase:
+Subir em Render/Railway e agendar para rodar 1 vez por dia.

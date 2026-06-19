@@ -1,13 +1,26 @@
 {
   "cities": [
-    "Ribeirão Preto SP",
+    "São Paulo SP",
     "Campinas SP",
-    "São José do Rio Preto SP"
+    "Ribeirão Preto SP",
+    "Sorocaba SP",
+    "Santos SP",
+    "São José dos Campos SP",
+    "Bauru SP",
+    "Piracicaba SP",
+    "Franca SP",
+    "Araraquara SP"
   ],
   "niches": [
-    "hamburgueria",
-    "pizzaria",
-    "barbearia"
+    "hamburgueria whatsapp",
+    "pizzaria whatsapp",
+    "barbearia whatsapp",
+    "estética automotiva whatsapp",
+    "cafeteria whatsapp",
+    "adega whatsapp",
+    "academia whatsapp",
+    "açaiteria whatsapp",
+    "pet shop whatsapp"
   ],
-  "maxResultsPerSearch": 3
+  "maxResultsPerSearch": 10
 }

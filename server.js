@@ -14,7 +14,37 @@ app.get("/", (req, res) => {
     routes: ["/scan"]
   });
 });
+app.get("/scan", async (req, res) => {
+  try {
+    const result = await runScan();
+    res.json({
+      modo: "manual navegador",
+      ok: true,
+      ...result
+    });
+  } catch (error) {
+    res.status(500).json({
+      ok: false,
+      error: error.message
+    });
+  }
+});
 
+app.post("/scan", async (req, res) => {
+  try {
+    const result = await runScan();
+    res.json({
+      modo: "automatico cronjob",
+      ok: true,
+      ...result
+    });
+  } catch (error) {
+    res.status(500).json({
+      ok: false,
+      error: error.message
+    });
+  }
+});
 app.post("/scan", async (req, res) => {
   try {
     const result = await runScan();
